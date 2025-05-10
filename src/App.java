@@ -2,9 +2,9 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
-        String nombreCompleto;
-        int puntosExtra, asistencia;
-        double primeraNota, segundaNota, tercertaNota, promedioGeneral, sumaNotas, notaFinal, notaBaja;
+        String nombreCompleto ="";
+        int puntosExtra=0, asistencia=0;
+        double primeraNota=0, segundaNota=0, tercertaNota=0, promedioGeneral=0, sumaNotas=0, notaFinal=0, notaBaja=0;
         System.out.println("Por favor ingrese el nombre del alumno: ");
         nombreCompleto = sc.nextLine();
         System.out.println("Por favor ingrese la nota de Lógica de programación: ");
